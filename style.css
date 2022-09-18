@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-color: rgb(47, 47, 255);
+    height: 125px;
+}
+.menu{
+    position: absolute;
+    right:300px;
+    top: 55px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 50px;
+}
+#fundo{
+    background-size: cover;
+    background-image: url(Oceano.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.center{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+section.sobre{
+    height: calc(100% - 200%px);
+    position: relative;
+}
+.social-media{
+    position: absolute;
+    right: 40px;
+    top: 650px;
+}
+.social-media img{
+    display: block;
+    width: 30px;
+    margin: 20px 0;
+}
+.extra{
+    position:fixed ;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: rgb(201, 187, 139);
+}
+.texto-sobre{
+    margin-top: 200px;
+}
+.texto-sobre h1{
+    font-size: 50px;
+}
+.texto-sobre h2{
+    color: rgb(0, 0, 0);
+}
+.texto-sobre p{
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+.texto-sobre button {
+    border: 0;
+    background-color: rgb(255, 187, 0);
+    color: rgb(7, 7, 7);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 180px;
+}

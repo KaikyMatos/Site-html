@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-color: rgb(47, 47, 255);
+    height: 125px;
+}
+.menu{
+    position: absolute;
+    right:300px;
+    top: 55px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 50px;
+}
